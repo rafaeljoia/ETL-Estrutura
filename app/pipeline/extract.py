@@ -1,7 +1,7 @@
-import os
 import glob
+import os
 
-import pandas as pd 
+import pandas as pd
 
 """
 Função para ler os arquivos de uma pasta data/input
@@ -13,8 +13,9 @@ Função para ler os arquivos de uma pasta data/input
 
 """
 
+
 def extract_from_excel(path):
-    all_files = glob.glob(os.path.join(path, "*.xlsx"))
+    all_files = glob.glob(os.path.join(path, '*.xlsx'))
 
     data_frame_list = []
     for file in all_files:
@@ -22,5 +23,3 @@ def extract_from_excel(path):
         data_frame_list.append(data)
 
     return data_frame_list
-
-
