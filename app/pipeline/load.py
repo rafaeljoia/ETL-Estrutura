@@ -1,11 +1,9 @@
 import os
 
-import pandas as pd
-
 """
 Receber um dataframe e salvar como excel
 
-args: 
+args:
     dataframe (pd.Dataframe)
     output_file(str): caminho onde será salvo
     file_name (str): nome do arquivo a ser salvo

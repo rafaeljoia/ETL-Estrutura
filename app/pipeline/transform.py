@@ -1,7 +1,8 @@
 import pandas as pd
 
 """
-Função para transformar uma lista de dataframes em um único dataframe consolidado
+Função para transformar uma lista de dataframes
+ em um único dataframe consolidado
 """
 
 

@@ -18,6 +18,7 @@ data_2 = pd.DataFrame(
     }
 )
 
+
 # Teste unitário
 def testar_a_concatenacao_da_lista_de_dataframe():
     arrange = pd.concat([data_1, data_2], ignore_index=True)

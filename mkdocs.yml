@@ -1,0 +1,20 @@
+site_name: Estrutura ETL
+theme:
+  name: material # or other theme
+  palette:
+    primary: blue
+  language: pt
+
+repo_name: "rafaeljoia/ETL-Estrutura"
+repo_url: "https://github.com/rafaeljoia/ETL-Estrutura"
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python

@@ -12,10 +12,29 @@ pandas = "^2.2.0"
 openpyxl = "^3.1.2"
 pytest = "^8.0.0"
 pyarrow = "^15.0.0"
-isort = "^5.13.2"
 blue = "^0.9.1"
+requests = "^2.31.0"
+taskipy = "^1.12.2"
+isort = "^5.13.2"
+mkdocs = "^1.5.3"
+mkdocstrings-python = "^1.8.0"
+pygments = "^2.17.2"
+mkdocs-material = "^9.5.7"
+pymdown-extensions = "^10.7"
+mkdocs-markdownextradata-plugin = "^0.2.5"
+mkdocs-bootstrap386 = "^0.0.2"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tools.isort]
+profile = "black"
+know_third_party = []
+
+[tool.taskipy.tasks]
+format = "isort . && blue ."
+test = "poetry run pytest -v"
+run = "python3 app/main.py"
+kill = "kill -9 $(lsof -t -i :8000)"
