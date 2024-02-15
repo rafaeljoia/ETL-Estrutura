@@ -29,4 +29,4 @@ Esta seção fornece respostas para perguntas frequentes. Se você tiver alguma 
 
 ## Contato
 
-Para quaisquer dúvidas, feedbacks ou suporte relacionado ao projeto, você pode entrar em contato diretamente através do e-mail: [lvgalvaofilho@gmail.com](mailto:lvgalvaofilho@gmail.com). Estou sempre disposto a ajudar!
+E-mail: [rafaeljoia@gmail.com](mailto:rafaeljoia@gmail.com).

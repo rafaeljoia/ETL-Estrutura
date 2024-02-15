@@ -16,7 +16,7 @@ Tera um novo no dia 29/01/2023
 
 * **Versionamento com Git e GitHub**: Aprenda a versionar seu projeto e a usar o GitHub para colaboração e publicação.
 
-* **Documentação com MKDocs**: Você vai aprender a documentar seu projeto com MKDocs e a publicar sua documentação no [GitHub Pages](https://lvgalvao.github.io/DataProjectStarterKit/)
+* **Documentação com MKDocs**: Você vai aprender a documentar seu projeto com MKDocs e a publicar sua documentação no [GitHub Pages](https://rafaeljoia.github.io/Estrutura-ETL/)
 
 * **Automatização e CI/CD**: Configurar rotinas de integração e entrega contínua para manter a qualidade do projeto.
 
@@ -49,7 +49,7 @@ Sugestão de leituras.
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/lvgalvao/dataprojectstarterkit.git
+git clone https://github.com/rafaeljoia/Estrutura-ETL.git
 cd dataprojectstarterkit
 ```
 
@@ -97,4 +97,4 @@ task run
 
 Para dúvidas, sugestões ou feedbacks:
 
-* **Luciano Filho** - [lvgalvaofilho@gmail.com](mailto:lvgalvaofilho@gmail.com)
+* **Rafael Jóia** - [rafaeljoia@gmail.com](mailto:rafaeljoia@gmail.com)
