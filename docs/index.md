@@ -1,37 +1,32 @@
-# Welcome to MkDocs
+# Doc 'Como estruturar um projeto do Zero'
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![Fluxo](static/fluxo.png)
 
-## Commands
+Este é um projeto exemplo dedicado a demonstrar práticas de refatoração. Neste espaço, você encontrará uma descrição aprofundada da ETL, instruções para instalação, respostas a perguntas frequentes e mais. Seja você um colaborador ou simplesmente alguém com interesse no projeto, esperamos que esta documentação lhe seja útil.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Além disso, esta documentação pode ser integrada ao Confluence ou a uma intranet interna, facilitando o acesso e colaboração de todos os membros da equipe.
 
-```mermaid
-sequenceDiagram
-    Alice->>Bob: Hello Bob, how are you ?
-    Bob->>Alice: Fine, thank you. And you?
-    create participant Carl
-    Alice->>Carl: Hi Carl!
-    create actor D as Donald
-    Carl->>D: Hi!
-    destroy Carl
-    Alice-xCarl: We are too many
-    destroy Bob
-    Bob->>Alice: I agree
-```
+## Seções
 
+- [Doc 'Como estruturar um projeto do Zero'](#doc-como-estruturar-um-projeto-do-zero)
+  - [Seções](#seções)
+  - [Introdução](#introdução)
+  - [Guia de Instalação](#guia-de-instalação)
+  - [FAQ](#faq)
+  - [Contato](#contato)
 
-## Project layout
+## Introdução
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+O objetivo deste projeto é demonstrar como técnicas de refatoração podem ser aplicadas para melhorar a qualidade do código, otimizar a performance e tornar o software mais manutenível. A refatoração é essencial para manter o código limpo e compreensível, permitindo que equipes mantenham uma alta velocidade de desenvolvimento ao longo do tempo.
 
+## Guia de Instalação
 
-# Função de transformação de dados
+Aqui, você encontrará instruções detalhadas sobre como instalar e configurar o projeto em seu ambiente local. Seguir as instruções corretamente garante que você tenha uma experiência suave ao trabalhar no projeto.
 
-### ::: app.pipeline.extract.extract_from_excel
+## FAQ
+
+Esta seção fornece respostas para perguntas frequentes. Se você tiver alguma dúvida que não está coberta aqui, sinta-se à vontade para entrar em contato.
+
+## Contato
+
+Para quaisquer dúvidas, feedbacks ou suporte relacionado ao projeto, você pode entrar em contato diretamente através do e-mail: [lvgalvaofilho@gmail.com](mailto:lvgalvaofilho@gmail.com). Estou sempre disposto a ajudar!
