@@ -1,4 +1,5 @@
-name: CI Workflow Testes
+
+name: CI Workflows
 
 on: [pull_request]
 

@@ -23,6 +23,7 @@ mkdocs-material = "^9.5.7"
 pymdown-extensions = "^10.7"
 mkdocs-markdownextradata-plugin = "^0.2.5"
 mkdocs-bootstrap386 = "^0.0.2"
+pre-commit = "^3.6.1"
 
 
 [build-system]
